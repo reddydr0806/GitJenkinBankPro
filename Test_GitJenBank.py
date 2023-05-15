@@ -32,7 +32,7 @@ class Test_BankProjectDemo():
         phone_detail = driver.find_element(By.XPATH, '//input[@id="customer.phoneNumber"]').send_keys('9886320044')
         ssn_detail = driver.find_element(By.XPATH, '//input[@id="customer.ssn"]').send_keys('039-88-9654')
 
-        username_detial = driver.find_element(By.XPATH, '//input[@id="customer.username"]').send_keys('danatest113')
+        username_detial = driver.find_element(By.XPATH, '//input[@id="customer.username"]').send_keys('danatest114')
         password_detial = driver.find_element(By.XPATH, '//input[@id="customer.password"]').send_keys('test@123')
         confirm_password = driver.find_element(By.XPATH, '//input[@id="repeatedPassword"]').send_keys('test@123')
 
